@@ -1,0 +1,10 @@
+version: '3'
+services:
+  app1:
+    image: 595031881493.dkr.ecr.eu-central-1.amazonaws.com/demoapp1:latest
+    ports:
+      - "8080:80"
+  app2:
+    image: 595031881493.dkr.ecr.eu-central-1.amazonaws.com/demoapp2:latest
+    ports:
+      - "8081:80"
